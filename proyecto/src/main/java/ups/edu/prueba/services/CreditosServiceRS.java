@@ -69,7 +69,7 @@ public class CreditosServiceRS {
 			ct.setIdCred(c.getIdCred());
 			ct.setMonto(c.getMonto());
 			ct.setNumMeses(c.getNumMeses());
-			ct.setFechaPrimerPago(c.getFechaPrimerPago());
+			//ct.setFechaPrimerPago(c.getFechaPrimerPago());
 			creditos.add(ct);
 		}
 		return creditos;

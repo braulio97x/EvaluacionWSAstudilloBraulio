@@ -29,7 +29,7 @@ public class CreditoBean {
 	}
 	
 	
-	public String guardarCliente() {
+	public String guardarCredito() {
 
 		try {
 			creditosON.insertCredito(newCredito);
