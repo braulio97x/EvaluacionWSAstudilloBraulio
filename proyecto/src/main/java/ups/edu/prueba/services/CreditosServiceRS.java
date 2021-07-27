@@ -44,18 +44,13 @@ public class CreditosServiceRS {
 		}
 	}
 
-	@POST
-	@Path("/sumar")
-	@Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
-	public int sumar(@QueryParam("p_a") int a, @QueryParam("p_b") int b) {
-		return a + b;
-	}
+	
 
 	@POST
-	@Path("/sumar2/{a}/{b}")
+	@Path("/solicitarCredito/{monto}/{numMeses}/{fecha1raCuota}")
 	@Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
-	public int sumar2(@PathParam("a") int a, @PathParam("b") int b) {
-		return a + b;
+	public int sumar2(@PathParam("monto") int monto, @PathParam("numMeses") int numMeses, @PathParam("fecha1raCuota") int fecha1raCuota) {
+		return monto + numMeses;
 	}
 
 	@GET

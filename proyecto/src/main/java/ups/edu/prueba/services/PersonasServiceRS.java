@@ -41,19 +41,7 @@ public class PersonasServiceRS {
 		}
 	}
 
-	@POST
-	@Path("/sumar")
-	@Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
-	public int sumar(@QueryParam("p_a") int a, @QueryParam("p_b") int b) {
-		return a + b;
-	}
-
-	@POST
-	@Path("/sumar2/{a}/{b}")
-	@Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
-	public int sumar2(@PathParam("a") int a, @PathParam("b") int b) {
-		return a + b;
-	}
+	
 
 	@GET
 	@Path("clientes")
