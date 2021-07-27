@@ -42,7 +42,6 @@ public class PersonasServiceRS {
 	}
 
 	
-
 	@GET
 	@Path("clientes")
 	@Produces(MediaType.APPLICATION_JSON)

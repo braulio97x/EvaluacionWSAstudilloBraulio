@@ -1,7 +1,4 @@
 package ups.edu.prueba.modelo;
-
-
-
 import java.util.Date;
 
 import javax.persistence.Column;

@@ -21,9 +21,6 @@ import ups.edu.prueba.modelo.Credito;
 import ups.edu.prueba.services.modelo.ClienteTemp;
 import ups.edu.prueba.services.modelo.CreditoTemp;
 
-
-
-
 @Path("creditos")
 public class CreditosServiceRS {
 	@Inject
@@ -45,7 +42,6 @@ public class CreditosServiceRS {
 	}
 
 	
-
 	@POST
 	@Path("/solicitarCredito/{monto}/{numMeses}/{fecha1raCuota}")
 	@Produces(javax.ws.rs.core.MediaType.APPLICATION_JSON)
